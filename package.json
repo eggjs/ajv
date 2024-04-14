@@ -1,5 +1,5 @@
 {
-  "name": "ajv",
+  "name": "@eggjs/ajv",
   "version": "8.12.0",
   "description": "Another JSON Schema Validator",
   "main": "dist/ajv.js",
@@ -41,7 +41,7 @@
       "text-summary"
     ]
   },
-  "repository": "ajv-validator/ajv",
+  "repository": "eggjs/ajv",
   "keywords": [
     "JSON",
     "schema",
@@ -54,7 +54,7 @@
   ],
   "author": "Evgeny Poberezkin",
   "license": "MIT",
-  "bugs": "https://github.com/ajv-validator/ajv/issues",
+  "bugs": "https://github.com/eggjs/ajv/issues",
   "homepage": "https://ajv.js.org",
   "runkitExampleFilename": ".runkit_example.js",
   "dependencies": {
@@ -122,5 +122,8 @@
   },
   "lint-staged": {
     "*.{json,yaml,js,ts}": "prettier --write"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,3 +1,5 @@
+> forked: let it can dependency by eggjs.
+
 <img align="right" alt="Ajv logo" width="160" src="https://ajv.js.org/img/ajv.svg">
 
 &nbsp;
